@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header section*/
+.text-clr-white{  color: white !important;}
+.img-hdr-sec{  width: 130px;  height: 50px;}
+
+/* about us*/
+.abt-p-sec{ font-size: 16px; line-height: 28px;}
+
+/*service*/
+.IMG-SER-SIZE{  width: 250px; height: 250px;}
+.contact-sec{ background-image: url(../images/ft.jpg); background-size: cover;   background-repeat: no-repeat;}
+.bg-clr{background-color: black !important;}
+.link-txt{text-decoration: none !important; }
+.adderss-box p{font-size: 16px; line-height: 22px;}
+
+
+@media(max-width:991px){}
+
+
+@media(max-width:767px){.img-hdr-sec {  width: 100px; }}
+@media(max-width:767px){.txt-sm-sz {  font-size: 18px;  }}
